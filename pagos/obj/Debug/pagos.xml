@@ -1,0 +1,266 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+pagos
+</name>
+</assembly>
+<members>
+<member name="T:pagos.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources._010680_0000d">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources._109_AllAnnotations_Default_16x16_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources._109_AllAnnotations_Error_16x16_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources._126_Edit_16x16_72">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources.crear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:pagos.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:pagos.wsUcolProduccion.Service">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolProduccion.Service.consultaCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolProduccion.Service.fintransaccionCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolProduccion.Service.cancelartransaccionCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolProduccion.Service.generarReferenciaCompleted">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.consulta(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.consultaAsync(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.consultaAsync(System.String,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.fintransaccion(System.String,System.String,System.String,System.Int32,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.fintransaccionAsync(System.String,System.String,System.String,System.Int32,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.fintransaccionAsync(System.String,System.String,System.String,System.Int32,System.Decimal,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.cancelartransaccion(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.cancelartransaccionAsync(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.cancelartransaccionAsync(System.String,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.generarReferencia(System.String,System.String,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.generarReferenciaAsync(System.String,System.String,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.generarReferenciaAsync(System.String,System.String,System.Decimal,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolProduccion.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.respuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolProduccion.respuesta.Respuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolProduccion.respuesta.txtrespuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolProduccion.respuesta.codigo">
+<comentarios/>
+</member>
+<member name="T:pagos.wsUcolProduccion.consultaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.consultaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolProduccion.consultaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.fintransaccionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.fintransaccionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolProduccion.fintransaccionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.cancelartransaccionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.cancelartransaccionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolProduccion.cancelartransaccionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.generarReferenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolProduccion.generarReferenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolProduccion.generarReferenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.Service">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolPruebas.Service.consultaCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolPruebas.Service.fintransaccionCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolPruebas.Service.cancelartransaccionCompleted">
+<remarks/>
+</member>
+<member name="E:pagos.wsUcolPruebas.Service.generarReferenciaCompleted">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.consulta(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.consultaAsync(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.consultaAsync(System.String,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.fintransaccion(System.String,System.String,System.String,System.Int32,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.fintransaccionAsync(System.String,System.String,System.String,System.Int32,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.fintransaccionAsync(System.String,System.String,System.String,System.Int32,System.Decimal,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.cancelartransaccion(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.cancelartransaccionAsync(System.String,System.String,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.cancelartransaccionAsync(System.String,System.String,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.generarReferencia(System.String,System.String,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.generarReferenciaAsync(System.String,System.String,System.Decimal)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.generarReferenciaAsync(System.String,System.String,System.Decimal,System.Object)">
+<remarks/>
+</member>
+<member name="M:pagos.wsUcolPruebas.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.respuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolPruebas.respuesta.Respuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolPruebas.respuesta.txtrespuesta">
+<comentarios/>
+</member>
+<member name="P:pagos.wsUcolPruebas.respuesta.codigo">
+<comentarios/>
+</member>
+<member name="T:pagos.wsUcolPruebas.consultaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.consultaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolPruebas.consultaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.fintransaccionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.fintransaccionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolPruebas.fintransaccionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.cancelartransaccionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.cancelartransaccionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolPruebas.cancelartransaccionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.generarReferenciaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:pagos.wsUcolPruebas.generarReferenciaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:pagos.wsUcolPruebas.generarReferenciaCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>
