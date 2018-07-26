@@ -109,7 +109,7 @@ Partial Class Form2
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Menu Pagos Version 1.8.2"
+        Me.Text = "Menu Pagos Version 1.8.3"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)

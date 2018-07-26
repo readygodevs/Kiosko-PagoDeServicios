@@ -207,7 +207,7 @@ Public Class Loader_Pagos
                         If conDiaCredito Then 'dias credito
 
                             NombreArchivo = rutaPag.Rows(0)("RutaOrigen") & "\" & ServicioAPagar("Descripcion") & "_del " &
-                                                  Convert.ToDateTime(minDate).ToString("dd_MM_yy") & " al " + Convert.ToDateTime(maxDate).ToString("dd_MM_yy")
+                                                  Convert.ToDateTime(minDate).ToString("dd") & " al " + Convert.ToDateTime(maxDate).ToString("dd") + " de " + Convert.ToDateTime(maxDate).ToString("MMMM")
                         Else
                             If esMensual.Rows.Count = 0 Then
                                 'colocar titulo para los no mensuales
